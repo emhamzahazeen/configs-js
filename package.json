@@ -1,0 +1,24 @@
+{
+  "name": "@comsaurus/root",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "projects/**",
+    "tools/**"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "clean:all": "npm run clean:dist && npm run clean:node_modules",
+    "clean:node_modules": "rm -rf node_modules **/**/node_modules",
+    "clean:dist": "rm -rf target **/dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "npm@8.18.0"
+}
