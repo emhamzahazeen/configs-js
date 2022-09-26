@@ -1,5 +1,27 @@
 # Contributing to the Comsaurus
 
+### Linting
+```
+npm run lint
+```
+
+#### Gotchas
+
+When using Webstorm there might be problem that the bash execution environment has incorrect nvm path, try the following:
+
+```
+~/.bashrc
+---------------------------
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+nvm use 18
+```
+```
+~/.huskyr
+--------------------------
+source ~/.bashrc
+```
+
 This project follows the ideas of the [conventional commits specification](https://www.conventionalcommits.org/). 
 This provides an easy set of types/rules for creating an explicit commit history which makes it easier to write automated 
 tools on top of, e.g. automated releases or changelogs.
