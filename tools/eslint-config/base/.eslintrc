@@ -1,0 +1,4 @@
+{
+  "root": true,
+  "extends": ["@comsaurus/eslint-config-base"]
+}

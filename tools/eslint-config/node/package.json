@@ -1,0 +1,14 @@
+{
+  "name": "@comsaurus/eslint-config-node",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "eslint": "8.22.0",
+    "eslint-plugin-node": "11.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
