@@ -1,9 +1,9 @@
 module.exports = {
-  extends: ["@commitlint/config-conventional", "jira"],
-  plugins: ["commitlint-plugin-jira-rules"],
+  extends: ['@commitlint/config-conventional', 'jira'],
+  plugins: ['commitlint-plugin-jira-rules'],
   rules: {
-    "jira-task-id-max-length": [0],
-    "jira-task-id-case": [2, 'always', "lowercase"],
-    "jira-commit-status-case": [2, 'always', "lowercase"]
+    'jira-task-id-max-length': [0],
+    'jira-task-id-case': [2, 'always', 'lowercase'],
+    'jira-commit-status-case': [2, 'always', 'lowercase']
   }
 };
