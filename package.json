@@ -15,7 +15,7 @@
     "clean:node_modules": "rm -rf node_modules **/**/node_modules",
     "clean:dist": "rm -rf target **/dist",
     "lint:config": "eslint *.js",
-    "lint:global": "npm run lint:config -- --cache --cache-location './dist/.eslintcache' && npm run prettier:global:check",
+    "lint:global": "npm run lint:config -- --cache --cache-location './dist/.eslintcache' && npm run prettier:global:check && ls-lint ",
     "lint:global:fix": "npm run lint:config -- --fix && npm run prettier:global:fix",
     "prettier:global:check": "prettier --ignore-path ./.gitignore --check \"./**/*.{yml,yaml,json,md}\"",
     "prettier:global:fix": "prettier --ignore-path ./.gitignore --write \"./**/*.{json,yml,yaml,json,md}\""
@@ -26,6 +26,7 @@
     "@commitlint/config-conventional": "~17.1.0",
     "@comsaurus/eslint-config-base": "*",
     "@comsaurus/eslint-config-base-prettier": "*",
+    "@ls-lint/ls-lint": "1.11.2",
     "commitizen": "4.2.5",
     "commitlint-config-jira": "1.6.4",
     "commitlint-plugin-jira-rules": "1.6.4",
