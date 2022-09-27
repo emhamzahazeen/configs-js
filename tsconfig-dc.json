@@ -1,0 +1,5 @@
+{
+  "exclude": ["node_modules"],
+  "extends": "@comsaurus/tsconfig/base.json",
+  "include": ["**/*.ts"]
+}
