@@ -1,0 +1,20 @@
+{
+  "name": "@comsaurus/stylelint-config-prettier",
+  "version": "0.0.0",
+  "description": "Prettier stylelint config for comsaurus",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "eslint": "eslint . --ext '.js'",
+    "lint": "npm run eslint -- --cache --cache-location './dist/.eslintcache'",
+    "lint:fix": "npm run eslint -- --fix"
+  },
+  "dependencies": {
+    "stylelint-prettier": "2.0.0",
+    "stylelint-config-prettier": "9.0.3"
+  },
+  "devDependencies": {
+    "@comsaurus/eslint-config-base": "*",
+    "@comsaurus/eslint-config-base-prettier": "*"
+  }
+}

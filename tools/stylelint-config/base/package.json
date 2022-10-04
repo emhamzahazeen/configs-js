@@ -1,0 +1,22 @@
+{
+  "name": "@comsaurus/stylelint-config-base",
+  "version": "0.0.0",
+  "description": "Base stylelint config for comsaurus",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "eslint": "eslint . --ext '.js'",
+    "lint": "npm run eslint -- --cache --cache-location './dist/.eslintcache'",
+    "lint:fix": "npm run eslint -- --fix"
+  },
+  "dependencies": {
+    "stylelint": "14.13.0",
+    "stylelint-config-standard": "28.0.0",
+    "stylelint-order": "5.0.0",
+    "stylelint-config-rational-order": "0.1.2"
+  },
+  "devDependencies": {
+    "@comsaurus/eslint-config-base": "*",
+    "@comsaurus/eslint-config-base-prettier": "*"
+  }
+}
