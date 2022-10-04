@@ -3,7 +3,11 @@
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "eslint": "eslint . --ext '.js'",
+    "lint": "npm run eslint -- --cache --cache-location './dist/.eslintcache'",
+    "lint:fix": "npm run eslint -- --fix"
+  },
   "dependencies": {
     "eslint": "8.22.0",
     "eslint-plugin-node": "11.1.0"

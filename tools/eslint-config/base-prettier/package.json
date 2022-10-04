@@ -6,8 +6,7 @@
   "scripts": {
     "eslint": "eslint . --ext '.js'",
     "lint": "npm run eslint -- --cache --cache-location './dist/.eslintcache'",
-    "lint:fix": "npm run eslint -- --fix && npm run prettier:fix",
-    "prettier:fix": "prettier --ignore-path ./.gitignore --write \"./**/*.{js}\""
+    "lint:fix": "npm run eslint -- --fix"
   },
   "dependencies": {
     "eslint": "8.22.0",
