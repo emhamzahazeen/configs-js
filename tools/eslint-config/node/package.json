@@ -9,10 +9,9 @@
     "lint:fix": "npm run eslint -- --fix"
   },
   "dependencies": {
-    "eslint": "8.22.0",
     "eslint-plugin-node": "11.1.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   }
 }
