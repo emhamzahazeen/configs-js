@@ -17,6 +17,7 @@
     "clean:turbo": "find ./{tools,projects}/ -name '.turbo' -print0 | xargs -r0 -- rm -r",
     "copy:paste:detection": "jscpd ./{tools,projects}/** -c .jscpdrc",
     "lint": "npm run lint:global && turbo run lint",
+    "lint:fix": "npm run lint:global:fix && turbo run lint:fix",
     "lint:config": "eslint *.js",
     "lint:dependencies": "depcruise --config dependency-cruiser-config.js .",
     "lint:global": "npm run lint:config -- --cache --cache-location './dist/.eslintcache' && npm run prettier:global:check && ls-lint && npm run lint:dependencies",
