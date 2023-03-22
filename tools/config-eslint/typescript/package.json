@@ -1,5 +1,5 @@
 {
-  "name": "@comsaurus/eslint-config-typescript",
+  "name": "@hazeen/eslint-config-typescript",
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",

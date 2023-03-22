@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": ["@comsaurus/eslint-config-base", "@comsaurus/eslint-config-base-prettier"]
+  "extends": ["@hazeen/eslint-config-base", "@hazeen/eslint-config-base-prettier"]
 }

@@ -1,4 +1,4 @@
-# Contributing to the Comsaurus
+# Contributing to the Configs
 
 ### Linting
 
@@ -79,7 +79,7 @@ Commit messages are supposed to be structured according to the following pattern
 Example:
 
 ```
-feat(gaia-1): [gaia-2][gaia-4] | add editor config
+feat(gh-gaia-1): [gh-gaia-2][gh-gaia-4] | add editor config
 
 enabled consistent editor configuration via .editorconfig
 ```

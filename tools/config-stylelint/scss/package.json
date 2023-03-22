@@ -1,5 +1,5 @@
 {
-  "name": "@comsaurus/stylelint-config-scss",
+  "name": "@hazeen/stylelint-config-scss",
   "version": "0.0.0",
   "description": "Scss stylelint config for comsaurus",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "stylelint-scss": "4.3.0"
   },
   "devDependencies": {
-    "@comsaurus/eslint-config-base": "*",
-    "@comsaurus/eslint-config-base-prettier": "*"
+    "@hazeen/eslint-config-base": "*",
+    "@hazeen/eslint-config-base-prettier": "*"
   }
 }
