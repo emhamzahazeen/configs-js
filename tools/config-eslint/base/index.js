@@ -11,25 +11,27 @@ module.exports = {
   ],
   plugins: ['prettier'],
   rules: {
+    'linebreak-style': 0,
+    'no-console': 1,
     'no-restricted-syntax': [
       'error',
       {
-        selector: "ClassDeclaration[superClass.name!='Error']",
-        message: 'Class declarations are not allowed except for extending errors.'
+        message: 'Class declarations are not allowed except for extending errors.',
+        selector: "ClassDeclaration[superClass.name!='Error']"
       }
     ],
     'node/no-unsupported-features/es-syntax': 'off',
-    'linebreak-style': 0,
-    'no-console': 1,
-    'prettier/prettier': 'error'
+    'prettier/prettier': 'error',
+    semi: ['error', 'always'],
+    'sort-keys': ['error', 'asc']
   },
   settings: {
+    'import/ignore': ['node_modules'],
+    'import/no-unresolved': [2, { ignore: ['node-modules'] }],
     'import/resolver': {
       node: {
-        extensions: ['.js']
+        extensions: ['.js', '.mjs']
       }
-    },
-    'import/ignore': ['node_modules'],
-    'import/no-unresolved': [2, { ignore: ['node-modules'] }]
+    }
   }
 };

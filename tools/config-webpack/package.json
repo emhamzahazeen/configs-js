@@ -1,7 +1,12 @@
 {
   "name": "@hazeen/config-webpack",
   "version": "0.0.0",
-  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./plugins/*": "./plugins/*.js",
+    "./loaders/*": "./loaders/*.js",
+    "./collections/*": "./collections/*.js"
+  },
   "license": "ISC",
   "scripts": {
     "eslint": "eslint . --ext '.js'",
@@ -11,6 +16,10 @@
   "dependencies": {
     "clean-webpack-plugin": "4.0.0",
     "html-webpack-plugin": "5.5.0",
+    "html-webpack-pug-plugin": "4.0.0",
+    "mini-css-extract-plugin": "2.7.5",
+    "postcss-preset-env": "8.3.0",
+    "pug-plugin": "4.9.7",
     "ts-loader": "9.4.1",
     "typescript": "4.8.4",
     "webpack": "5.74.0",

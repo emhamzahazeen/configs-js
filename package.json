@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "projects/**",
+    "projects/*",
     "tools/**"
   ],
   "scripts": {
@@ -16,12 +16,13 @@
     "clean:dist": "find ./{tools,projects}/ -name 'dist' -print0 | xargs -r0 -- rm -r",
     "clean:turbo": "find ./{tools,projects}/ -name '.turbo' -print0 | xargs -r0 -- rm -r",
     "copy:paste:detection": "jscpd ./{tools,projects}/** -c .jscpdrc",
-    "lint": "npm run lint:global && turbo run lint",
-    "lint:fix": "npm run lint:global:fix && turbo run lint:fix",
+    "lint": "turbo run lint && npm run lint:global",
+    "lint:fix": "turbo run lint:fix && npm run lint:global:fix",
     "lint:config": "eslint *.js",
     "lint:dependencies": "depcruise --config dependency-cruiser-config.js .",
-    "lint:global": "npm run lint:config -- --cache --cache-location './dist/.eslintcache' && npm run prettier:global:check && ls-lint && npm run lint:dependencies",
+    "lint:global": "npm run lint:config -- --cache --cache-location './dist/.eslintcache' && npm run prettier:global:check && npm run lint:ci:structure && npm run lint:dependencies",
     "lint:global:fix": "npm run lint:config -- --fix && npm run prettier:global:fix",
+    "lint:ci:structure": "ls-lint",
     "prettier:global:check": "prettier --ignore-path ./.gitignore --check \"./**/*.{yml,yaml,json,md}\"",
     "prettier:global:fix": "prettier --ignore-path ./.gitignore --write \"./**/*.{json,yml,yaml,md}\""
   },

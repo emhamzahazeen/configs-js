@@ -1,0 +1,11 @@
+export { default as AutoImportPlugin } from './configs/auto-import.js';
+export { default as EslintPlugin } from './configs/eslint.js';
+export { default as IconsPlugin } from './configs/icons.js';
+export { default as PagesPlugin } from './configs/pages.js';
+export { default as StylelintPlugin } from './configs/stylelint.js';
+export { default as VueI18nPlugin } from './configs/vue-i18n.js';
+export { default as VueLayoutsPlugin } from './configs/vue-layouts.js';
+export { default as VueMarkdownPlugin } from './configs/vue-markdown.js';
+export { default as VueUnPluginComponentsPlugin } from './configs/vue-unplugin-components.js';
+export { default as VueWithMacroPlugin } from './configs/vue-with-macros.js';
+export { default as Vue } from './configs/vue.js';

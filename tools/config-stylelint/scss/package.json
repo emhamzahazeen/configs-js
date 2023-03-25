@@ -1,7 +1,7 @@
 {
   "name": "@hazeen/stylelint-config-scss",
   "version": "0.0.0",
-  "description": "Scss stylelint config for comsaurus",
+  "description": "Scss stylelint config for hazeen",
   "main": "index.js",
   "license": "ISC",
   "scripts": {

@@ -1,0 +1,18 @@
+{
+  "name": "@hazeen/eslint-config-vue",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "eslint": "eslint . --ext '.js'",
+    "lint": "npm run eslint -- --cache --cache-location './dist/.eslintcache'",
+    "lint:fix": "npm run eslint -- --fix"
+  },
+  "dependencies": {
+    "@vue/eslint-config-typescript": "11.0.2",
+    "eslint-plugin-vue": "9.9.0"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}

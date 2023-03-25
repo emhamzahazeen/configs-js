@@ -1,7 +1,7 @@
 {
   "name": "@hazeen/stylelint-config-prettier",
   "version": "0.0.0",
-  "description": "Prettier stylelint config for comsaurus",
+  "description": "Prettier stylelint config for hazeen",
   "main": "index.js",
   "license": "ISC",
   "scripts": {
