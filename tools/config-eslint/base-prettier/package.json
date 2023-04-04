@@ -12,7 +12,10 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1"
   },
+  "devDependencies": {
+    "@hazeen/eslint-config-base": "*"
+  },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }

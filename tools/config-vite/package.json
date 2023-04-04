@@ -4,7 +4,7 @@
   "description": "Base stylelint config for hazeen",
   "main": "index.js",
   "type":"module",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "eslint": "eslint . --ext '.js'",
     "lint": "npm run eslint -- --cache --cache-location './dist/.eslintcache'",
@@ -32,5 +32,8 @@
     "@hazeen/eslint-config-base-prettier": "*",
     "@hazeen/eslint-config-typescript": "*",
     "@types/markdown-it-link-attributes": "3.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

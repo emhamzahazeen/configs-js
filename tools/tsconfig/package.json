@@ -4,5 +4,8 @@
   "files": [
     "base.json",
     "dom.json"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -7,7 +7,7 @@
     "./loaders/*": "./loaders/*.js",
     "./collections/*": "./collections/*.js"
   },
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "eslint": "eslint . --ext '.js'",
     "lint": "npm run eslint -- --cache --cache-location './dist/.eslintcache'",
@@ -30,6 +30,6 @@
     "@hazeen/stylelint-config-prettier": "*"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }

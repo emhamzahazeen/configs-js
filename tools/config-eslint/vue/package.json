@@ -12,7 +12,11 @@
     "@vue/eslint-config-typescript": "11.0.2",
     "eslint-plugin-vue": "9.9.0"
   },
+  "devDependencies": {
+    "@hazeen/eslint-config-base": "*",
+    "@hazeen/eslint-config-base-prettier": "*"
+  },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }

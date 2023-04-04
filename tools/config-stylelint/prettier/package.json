@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Prettier stylelint config for hazeen",
   "main": "index.js",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "eslint": "eslint . --ext '.js'",
     "lint": "npm run eslint -- --cache --cache-location './dist/.eslintcache'",
@@ -16,5 +16,8 @@
   "devDependencies": {
     "@hazeen/eslint-config-base": "*",
     "@hazeen/eslint-config-base-prettier": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

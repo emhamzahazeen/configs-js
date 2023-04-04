@@ -11,7 +11,11 @@
   "dependencies": {
     "eslint-plugin-node": "11.1.0"
   },
+  "devDependencies": {
+    "@hazeen/eslint-config-base": "*",
+    "@hazeen/eslint-config-base-prettier": "*"
+  },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }
