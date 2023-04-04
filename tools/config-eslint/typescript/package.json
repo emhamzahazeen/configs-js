@@ -1,6 +1,6 @@
 {
-  "name": "@hazeen/eslint-config-typescript",
-  "version": "0.0.0",
+  "name": "@emhamzahazeen/eslint-config-typescript",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -15,11 +15,11 @@
     "eslint-plugin-import": "2.26.0"
   },
   "devDependencies": {
-    "@hazeen/eslint-config-base": "*",
-    "@hazeen/eslint-config-base-prettier": "*",
+    "@emhamzahazeen/eslint-config-base": "*",
+    "@emhamzahazeen/eslint-config-base-prettier": "*",
     "typescript": "4.8.3"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }

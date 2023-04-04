@@ -1,6 +1,6 @@
 {
-  "name": "@hazeen/stylelint-config-base",
-  "version": "0.0.0",
+  "name": "@emhamzahazeen/stylelint-config-base",
+  "version": "1.0.0",
   "description": "Base stylelint config for hazeen",
   "main": "index.js",
   "license": "MIT",
@@ -16,8 +16,8 @@
     "stylelint-config-rational-order": "0.1.2"
   },
   "devDependencies": {
-    "@hazeen/eslint-config-base": "*",
-    "@hazeen/eslint-config-base-prettier": "*"
+    "@emhamzahazeen/eslint-config-base": "*",
+    "@emhamzahazeen/eslint-config-base-prettier": "*"
   },
   "publishConfig": {
     "access": "public"

@@ -1,6 +1,6 @@
 {
-  "name": "@hazeen/stylelint-config-scss",
-  "version": "0.0.0",
+  "name": "@emhamzahazeen/stylelint-config-scss",
+  "version": "1.0.0",
   "description": "Scss stylelint config for hazeen",
   "main": "index.js",
   "license": "MIT",
@@ -14,8 +14,8 @@
     "stylelint-scss": "4.3.0"
   },
   "devDependencies": {
-    "@hazeen/eslint-config-base": "*",
-    "@hazeen/eslint-config-base-prettier": "*"
+    "@emhamzahazeen/eslint-config-base": "*",
+    "@emhamzahazeen/eslint-config-base-prettier": "*"
   },
   "publishConfig": {
     "access": "public"

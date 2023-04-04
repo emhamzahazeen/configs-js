@@ -1,6 +1,6 @@
 {
-  "name": "@hazeen/config-webpack",
-  "version": "0.0.0",
+  "name": "@emhamzahazeen/config-webpack",
+  "version": "1.0.0",
   "exports": {
     ".": "./index.js",
     "./plugins/*": "./plugins/*.js",
@@ -26,8 +26,8 @@
     "webpack-merge": "5.8.0"
   },
   "devDependencies": {
-    "@hazeen/stylelint-config-base": "*",
-    "@hazeen/stylelint-config-prettier": "*"
+    "@emhamzahazeen/stylelint-config-base": "*",
+    "@emhamzahazeen/stylelint-config-prettier": "*"
   },
   "publishConfig": {
     "access": "public"

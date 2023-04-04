@@ -1,6 +1,6 @@
 {
-  "name": "@hazeen/eslint-config-vue",
-  "version": "0.0.0",
+  "name": "@emhamzahazeen/eslint-config-vue",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -13,8 +13,8 @@
     "eslint-plugin-vue": "9.9.0"
   },
   "devDependencies": {
-    "@hazeen/eslint-config-base": "*",
-    "@hazeen/eslint-config-base-prettier": "*"
+    "@emhamzahazeen/eslint-config-base": "*",
+    "@emhamzahazeen/eslint-config-base-prettier": "*"
   },
   "publishConfig": {
     "access": "public"

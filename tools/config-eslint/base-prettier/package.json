@@ -1,6 +1,6 @@
 {
-  "name": "@hazeen/eslint-config-base-prettier",
-  "version": "0.0.0",
+  "name": "@emhamzahazeen/eslint-config-base-prettier",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -13,7 +13,7 @@
     "eslint-plugin-prettier": "4.2.1"
   },
   "devDependencies": {
-    "@hazeen/eslint-config-base": "*"
+    "@emhamzahazeen/eslint-config-base": "*"
   },
   "publishConfig": {
     "access": "public"

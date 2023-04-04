@@ -1,6 +1,6 @@
 {
-  "name": "@hazeen/eslint-config-jest",
-  "version": "0.0.0",
+  "name": "@emhamzahazeen/eslint-config-jest",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -12,8 +12,8 @@
     "eslint-plugin-jest": "27.0.2"
   },
   "devDependencies": {
-    "@hazeen/eslint-config-base": "*",
-    "@hazeen/eslint-config-base-prettier": "*",
+    "@emhamzahazeen/eslint-config-base": "*",
+    "@emhamzahazeen/eslint-config-base-prettier": "*",
     "typescript": "4.8.3"
   },
   "publishConfig": {

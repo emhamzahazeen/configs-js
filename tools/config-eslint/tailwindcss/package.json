@@ -1,6 +1,6 @@
 {
-  "name": "@hazeen/eslint-config-tailwindcss",
-  "version": "0.0.0",
+  "name": "@emhamzahazeen/eslint-config-tailwindcss",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -12,8 +12,8 @@
     "eslint-plugin-tailwindcss": "3.10.1"
   },
   "devDependencies": {
-    "@hazeen/eslint-config-base": "*",
-    "@hazeen/eslint-config-base-prettier": "*"
+    "@emhamzahazeen/eslint-config-base": "*",
+    "@emhamzahazeen/eslint-config-base-prettier": "*"
   },
   "publishConfig": {
     "access": "public"

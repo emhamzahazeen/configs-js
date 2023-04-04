@@ -1,9 +1,9 @@
 {
-  "name": "@hazeen/config-vite",
-  "version": "0.0.0",
+  "name": "@emhamzahazeen/config-vite",
+  "version": "1.0.0",
   "description": "Base stylelint config for hazeen",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "eslint": "eslint . --ext '.js'",
@@ -28,9 +28,9 @@
     "vite-plugin-vue-markdown": "0.22.4"
   },
   "devDependencies": {
-    "@hazeen/eslint-config-base": "*",
-    "@hazeen/eslint-config-base-prettier": "*",
-    "@hazeen/eslint-config-typescript": "*",
+    "@emhamzahazeen/eslint-config-base": "*",
+    "@emhamzahazeen/eslint-config-base-prettier": "*",
+    "@emhamzahazeen/eslint-config-typescript": "*",
     "@types/markdown-it-link-attributes": "3.0.1"
   },
   "publishConfig": {
