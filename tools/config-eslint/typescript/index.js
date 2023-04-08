@@ -65,7 +65,8 @@ module.exports = {
         selector: 'interface'
       }
     ],
-    '@typescript-eslint/no-explicit-any': ['error', { ignoreRestArgs: true }]
+    '@typescript-eslint/no-explicit-any': ['error', { ignoreRestArgs: true }],
+    'no-undef': 'off'
   },
   settings: {
     'import/parsers': {
