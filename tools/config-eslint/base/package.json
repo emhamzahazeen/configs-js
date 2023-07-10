@@ -1,6 +1,6 @@
 {
   "name": "@emhamzahazeen/eslint-config-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -16,7 +16,7 @@
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-no-secrets": "0.8.9",
     "eslint-plugin-optimize-regex": "1.2.1",
-    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-prettier": "5.0.0-alpha.2",
     "eslint-plugin-promise": "6.0.1"
   },
   "publishConfig": {

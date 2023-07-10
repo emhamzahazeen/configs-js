@@ -1,6 +1,6 @@
 {
   "name": "@emhamzahazeen/eslint-config-base-prettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,8 +9,8 @@
     "lint:fix": "npm run eslint -- --fix"
   },
   "dependencies": {
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-prettier": "4.2.1"
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "5.0.0-alpha.2"
   },
   "devDependencies": {
     "@emhamzahazeen/eslint-config-base": "*"
