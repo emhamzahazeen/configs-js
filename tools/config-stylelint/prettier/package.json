@@ -1,6 +1,6 @@
 {
   "name": "@emhamzahazeen/stylelint-config-prettier",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Prettier stylelint config for hazeen",
   "main": "index.js",
   "license": "MIT",
@@ -10,8 +10,8 @@
     "lint:fix": "npm run eslint -- --fix"
   },
   "dependencies": {
-    "stylelint-prettier": "2.0.0",
-    "stylelint-config-prettier": "9.0.3"
+    "stylelint-prettier": "5.0.2",
+    "stylelint-config-prettier": "9.0.5"
   },
   "devDependencies": {
     "@emhamzahazeen/eslint-config-base": "*",

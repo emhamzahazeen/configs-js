@@ -1,6 +1,6 @@
 {
   "name": "@emhamzahazeen/stylelint-config-scss",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Scss stylelint config for hazeen",
   "main": "index.js",
   "license": "MIT",
@@ -10,8 +10,8 @@
     "lint:fix": "npm run eslint -- --fix"
   },
   "dependencies": {
-    "stylelint-config-sass-guidelines": "9.0.1",
-    "stylelint-scss": "4.3.0"
+    "stylelint-config-sass-guidelines": "12.1.0",
+    "stylelint-scss": "6.8.1"
   },
   "devDependencies": {
     "@emhamzahazeen/eslint-config-base": "*",

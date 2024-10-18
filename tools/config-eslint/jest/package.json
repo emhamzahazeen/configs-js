@@ -1,6 +1,6 @@
 {
   "name": "@emhamzahazeen/eslint-config-jest",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,7 +9,7 @@
     "lint:fix": "npm run eslint -- --fix"
   },
   "dependencies": {
-    "eslint-plugin-jest": "27.0.2"
+    "eslint-plugin-jest": "27.9.0"
   },
   "devDependencies": {
     "@emhamzahazeen/eslint-config-base": "*",

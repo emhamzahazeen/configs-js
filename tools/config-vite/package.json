@@ -1,6 +1,6 @@
 {
   "name": "@emhamzahazeen/config-vite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Base stylelint config for hazeen",
   "main": "index.js",
   "type": "module",
@@ -11,21 +11,21 @@
     "lint:fix": "npm run eslint -- --fix"
   },
   "dependencies": {
-    "@intlify/unplugin-vue-i18n": "0.10.0",
-    "@vitejs/plugin-vue": "4.1.0",
-    "@vitejs/plugin-vue-jsx": "3.0.1",
+    "@intlify/unplugin-vue-i18n": "5.2.0",
+    "@vitejs/plugin-vue": "5.1.4",
+    "@vitejs/plugin-vue-jsx": "4.0.1",
     "markdown-it-link-attributes": "4.0.1",
-    "markdown-it-shiki": "0.8.0",
-    "unplugin-auto-import": "0.15.2",
-    "unplugin-icons": "0.16.1",
-    "unplugin-vue-components": "0.24.1",
-    "unplugin-vue-macros": "1.11.2",
-    "vite": "4.2.1",
+    "markdown-it-shiki": "0.9.0",
+    "unplugin-auto-import": "0.18.3",
+    "unplugin-icons": "0.19.3",
+    "unplugin-vue-components": "0.27.4",
+    "unplugin-vue-macros": "2.13.0",
+    "vite": "5.4.9",
     "vite-plugin-eslint": "1.8.1",
-    "vite-plugin-pages": "0.29.0",
-    "vite-plugin-stylelint": "4.3.0",
-    "vite-plugin-vue-layouts": "0.8.0",
-    "vite-plugin-vue-markdown": "0.22.4"
+    "vite-plugin-pages": "0.32.3",
+    "vite-plugin-stylelint": "6.0.0-beta.0",
+    "vite-plugin-vue-layouts": "0.11.0",
+    "unplugin-vue-markdown": "0.26.2"
   },
   "devDependencies": {
     "@emhamzahazeen/eslint-config-base": "*",

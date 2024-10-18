@@ -1,5 +1,11 @@
 # @emhamzahazeen/eslint-config-base-prettier
 
+## 1.1.0
+
+### Minor Changes
+
+- dependency updates
+
 ## 1.0.1
 
 ### Patch Changes

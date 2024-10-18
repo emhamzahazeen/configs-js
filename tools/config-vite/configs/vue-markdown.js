@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-import Markdown from 'vite-plugin-vue-markdown';
+import Markdown from 'unplugin-vue-markdown/vite';
 import LinkAttributes from 'markdown-it-link-attributes';
 import Shiki from 'markdown-it-shiki';
 export default defineConfig({

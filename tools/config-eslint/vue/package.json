@@ -1,6 +1,6 @@
 {
   "name": "@emhamzahazeen/eslint-config-vue",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,8 +9,8 @@
     "lint:fix": "npm run eslint -- --fix"
   },
   "dependencies": {
-    "@vue/eslint-config-typescript": "11.0.2",
-    "eslint-plugin-vue": "9.9.0"
+    "@vue/eslint-config-typescript": "13.0.0",
+    "eslint-plugin-vue": "9.29.0"
   },
   "devDependencies": {
     "@emhamzahazeen/eslint-config-base": "*",
