@@ -1,6 +1,6 @@
 {
   "name": "@emhamzahazeen/eslint-config-jest",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,12 +9,11 @@
     "lint:fix": "npm run eslint -- --fix"
   },
   "dependencies": {
-    "eslint-plugin-jest": "27.9.0"
+    "eslint-plugin-jest": "28.8.3"
   },
   "devDependencies": {
     "@emhamzahazeen/eslint-config-base": "*",
-    "@emhamzahazeen/eslint-config-base-prettier": "*",
-    "typescript": "4.8.3"
+    "typescript": "5.6.3"
   },
   "publishConfig": {
     "access": "public"

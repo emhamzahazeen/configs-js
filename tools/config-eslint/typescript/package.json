@@ -1,6 +1,6 @@
 {
   "name": "@emhamzahazeen/eslint-config-typescript",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,14 +9,13 @@
     "lint:fix": "npm run eslint -- --fix"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "8.10.0",
-    "@typescript-eslint/parser": "8.10.0",
+    "@typescript-eslint/parser": "8.11.0",
+    "typescript-eslint": "8.11.0",
     "eslint-import-resolver-typescript": "3.6.3",
-    "eslint-plugin-import": "2.31.0"
+    "eslint-plugin-import-x": "4.3.1"
   },
   "devDependencies": {
     "@emhamzahazeen/eslint-config-base": "*",
-    "@emhamzahazeen/eslint-config-base-prettier": "*",
     "typescript": "5.6.3"
   },
   "publishConfig": {

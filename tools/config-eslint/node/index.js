@@ -1,10 +1,3 @@
-module.exports = {
-  env: {
-    node: true
-  },
-  extends: ['plugin:node/recommended'],
-  plugins: ['node'],
-  rules: {
-    'node/no-unsupported-features/es-syntax': 'off'
-  }
-};
+const eslintPluginPlugin = require('eslint-plugin-n');
+
+module.exports = [...eslintPluginPlugin.configs['flat/recommended-script']];

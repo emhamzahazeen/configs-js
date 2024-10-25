@@ -1,6 +1,6 @@
 {
   "name": "@emhamzahazeen/config-vite",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Base stylelint config for hazeen",
   "main": "index.js",
   "type": "module",
@@ -29,7 +29,6 @@
   },
   "devDependencies": {
     "@emhamzahazeen/eslint-config-base": "*",
-    "@emhamzahazeen/eslint-config-base-prettier": "*",
     "@emhamzahazeen/eslint-config-typescript": "*",
     "@types/markdown-it-link-attributes": "3.0.1"
   },
