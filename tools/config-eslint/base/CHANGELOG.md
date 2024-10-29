@@ -1,5 +1,11 @@
 # @emhamzahazeen/eslint-config-base
 
+## 2.0.1
+
+### Patch Changes
+
+- adjust stylistic rules
+
 ## 2.0.0
 
 ### Major Changes

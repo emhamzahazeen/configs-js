@@ -30,6 +30,7 @@ module.exports = [
     },
     rules: {
       '@stylistic/semi': ['error', 'always', { omitLastInOneLineBlock: true }],
+      '@stylistic/space-before-function-paren': ['error', 'never'],
       'linebreak-style': 0,
       'no-console': 1,
       'no-restricted-syntax': [

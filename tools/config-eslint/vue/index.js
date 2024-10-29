@@ -3,7 +3,6 @@ const eslintConfigVueTs = require('@vue/eslint-config-typescript');
 
 module.exports = [
   ...eslintPluginVue.configs['flat/recommended'],
-  ...eslintPluginVue.configs['flat/strongly-recommended'],
   ...eslintConfigVueTs(),
   {
     languageOptions: {
