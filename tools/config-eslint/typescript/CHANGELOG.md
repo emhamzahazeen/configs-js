@@ -1,5 +1,11 @@
 # @emhamzahazeen/eslint-config-typescript
 
+## 2.0.1
+
+### Patch Changes
+
+- update the config structure
+
 ## 2.0.0
 
 ### Major Changes
