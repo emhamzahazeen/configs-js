@@ -1,5 +1,11 @@
 # @emhamzahazeen/eslint-config-typescript
 
+## 2.0.2
+
+### Patch Changes
+
+- make ts rules available with proper abstraction
+
 ## 2.0.1
 
 ### Patch Changes

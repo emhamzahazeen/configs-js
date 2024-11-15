@@ -1,7 +1,14 @@
 {
   "name": "@emhamzahazeen/eslint-config-typescript",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "index.js",
+  "exports": {
+    "./common-exclusions-rules": "./common-exclusions-rules.js"
+  },
+  "files": [
+    "index.js",
+    "common-exclusions-rules.js"
+  ],
   "license": "MIT",
   "scripts": {
     "eslint": "eslint . --ext '.js'",

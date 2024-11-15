@@ -1,10 +1,14 @@
 const eslintPluginVue = require('eslint-plugin-vue');
 const eslintConfigVueTs = require('@vue/eslint-config-typescript');
+const typescriptCommonExclusionsRules = require('@emhamzahazeen/eslint-config-typescript/common-exclusions-rules');
 
 module.exports = [
   ...eslintPluginVue.configs['flat/recommended'],
-  ...eslintConfigVueTs(),
+  ...eslintConfigVueTs({
+    extends: ['strict', 'stylistic']
+  }),
   {
+    files: ['**/*.ts', '**/*.tsx', '**/*.mts', '**/*.vue'],
     languageOptions: {
       globals: {
         computed: 'readonly',
@@ -28,6 +32,7 @@ module.exports = [
       }
     },
     rules: {
+      ...typescriptCommonExclusionsRules,
       '@typescript-eslint/no-unused-vars': 'warn',
       'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
       'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
